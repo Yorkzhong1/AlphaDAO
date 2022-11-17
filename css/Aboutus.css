@@ -1,0 +1,97 @@
+
+nav ul{
+    display:flex;
+    list-style: none;
+    text-align: center;
+    justify-content: space-evenly;
+    font-size: 2em;
+    
+    }
+nav li{
+        flex:1;
+    }
+header{
+        background-color: black;
+        padding:20px;
+    }
+    
+header img{
+        width: 200px;
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+    
+    } 
+#img-div{
+    display:block;
+    margin:10px auto;
+    max-width: 300px;
+}
+#img-caption{
+    font-size: 20px; 
+
+}
+h1{
+
+    text-align: center;
+}
+
+body{
+    background-color: #EDEFEE;
+    font-family: "Markazi Text", serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+img{
+    display:block;
+
+}
+
+#image{
+    max-width:100%;
+    height:auto;
+    margin:10px auto;
+
+}
+
+#whoweare{
+  display:flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: left;
+  margin-block: 20px;
+
+}
+
+.members{
+    background-color:bisque;
+
+    display:block;
+    max-width: 300px;
+    padding: 20px;
+    margin:20px;
+
+
+}
+.divider{
+    border: none;
+    height:5px;
+    background-color: darkgray;
+    margin:20px auto;
+}
+footer img {
+
+    width:100px;
+   
+   }
+footer{
+    background-color: beige;
+    display:flex;
+}
+
+footer div{
+    flex:1;
+}

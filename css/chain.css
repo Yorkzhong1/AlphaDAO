@@ -1,0 +1,74 @@
+#home{
+    text-align: center;
+    margin-left: 200px;
+}
+
+header img{
+    
+    width:500px;
+    margin:10px auto;
+    margin-left:200px;
+}
+
+main{
+ 
+    height:900px;
+    
+
+}
+
+
+nav{
+    height: 100%;
+    width: 180px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: lightblue;
+    overflow-x: hidden;
+    padding:20px;
+    display:flex;
+    justify-content: space-between;
+    flex-direction:column;
+
+}
+
+
+nav header{
+    margin: 70px 0;
+
+
+}
+
+section header{
+    font-size: 30px;
+    text-align: center;
+
+
+}
+.doc{
+    
+    width:80%;
+    margin-left:250px;
+    padding-left:20px;
+
+
+
+}
+
+.image{
+
+
+padding: auto;
+
+}
+
+@media (maxwidth:500px){
+
+    main{
+        width:500px;
+
+    }
+
+}

@@ -1,0 +1,11 @@
+#header-img{
+    width:300px;
+    
+}
+
+header .image{
+    
+    display: flex;
+    justify-content:center;
+
+}
